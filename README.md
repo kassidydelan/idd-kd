@@ -14,15 +14,13 @@ What to include:
 
 - Header 
     - Logo 
-        - GBC
-    - Main Menu (GBC Nav)
-    - Nav (Overview, Full Description, Courses)
+        - GBC (School of Design)
     - Search Bar
 - Body 
     - Description of program 
     - Facility in building (what students can access in the building and the resources)
-    - Courses 
-    - Tuition 
+`   - Skills learnt from certain classes
+    - Resources provived from the program 
  - Previous Students Info/Projects
     - Photo 
     - Quotes (what they enjoyed with the program & their experiences)
