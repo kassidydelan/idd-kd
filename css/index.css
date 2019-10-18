@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Raleway:500,800&display=swap');
+
+html {
+    --background: #fff;
+    --on-background: #000;
+}
+
+/* Header */
+
+
+.topbar {
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "logo menu";
+    grid-column-gap: 7em;
+
+}
+
+
+.logo {
+    grid-area: logo;
+    font: 1em 'Raleway', sans-serif;
+    font-weight: 800;
+    margin: 12px;
+}
+
+.topbar div {
+    grid-area: menu;
+    justify-self: center; 
+    align-self: center; 
+
+    
+}
+/* 
+.topbar {
+    grid-template-columns: auto 1fr;
+    grid-template-areas: "logo heading menu" 
+}
+*/
+
+
+nav ul li {
+    place-content: end;
+    visibility: hidden;
+    max-width: 0px;
+    height: 0px;
+} 
+
+.content a {
+    line-height: 3;
+    padding: 0 1em;
+    display: block;   
+}
+
+/* 
+.site-menu {
+    opacity: 0.5;
+    grid-area: menu;
+    padding: 1em;
+}
+
+.content a {
+    color: inherit;
+    text-decoration: none;
+    grid-gap: 1em;
+}
+*/
+
+.waterfront-shot img {
+    width: 100%;
+    height: auto;
+}
+
+.program { 
+    font: 1.5em 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+h3 { 
+    font: 1em 'Lato', sans-serif; 
+    font-weight: 300i;
+    display: grid;
+    grid-template-rows: 2fr 2fr; 
+    text-align: center;
+    
+}
+
+
+
+
